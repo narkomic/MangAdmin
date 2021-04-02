@@ -1579,7 +1579,7 @@ function GMBuddy(fxn)
         outSAY(".announce "..EBAnn:GetText()); 
     
     elseif (fxn=="morp")then
-        outSAY(".morph "..GMArray["Morph"][UIDropDownMenu_GetText(CBXMorph)]);
+        outSAY(".modify morph "..GMArray["Morph"][UIDropDownMenu_GetText(CBXMorph)]);
 
     elseif (fxn=="demo")then
         outSAY(".demorph"); 
@@ -1588,7 +1588,7 @@ function GMBuddy(fxn)
         outSAY(".levelup "..EBlvl:GetText()); 
     
     elseif (fxn=="gm")then
-        outSAY(".recall gm");
+        outSAY(".tele gmisland");
     end
     
 
